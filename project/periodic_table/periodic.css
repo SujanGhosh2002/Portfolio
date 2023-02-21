@@ -1,0 +1,50 @@
+*{
+    margin:1px;
+    padding: 1px;
+}
+html{
+    height: 100%;
+}
+body{
+    width: 100vh;
+}
+table{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+/* th{
+    border: 2px solid gray;
+    width: 5%;
+    height: 5%;
+} */
+.white{
+    background-color: white;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.lightskyblue{
+    background-color: lightskyblue;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color: pink;
+}
+.violet{
+    background-color: violet;
+}
+.gray{
+    background-color: gray;
+}
+.blueviolet{
+    background-color: blueviolet;
+}
+.greenyellow{
+    background-color: greenyellow;
+}

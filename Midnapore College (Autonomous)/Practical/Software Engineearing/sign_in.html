@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Sign In Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 1rem;
+            line-height: 1.6;
+            height: 100%;
+        }
+
+        .signin {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background: white; */
+            background-image: url(img/fxVE.gif);
+            background-size: cover;
+        }
+
+        .signin-form {
+            width: 350px;
+            margin: 0 auto;
+            /* border: 1px solid gray; */
+            padding: 2rem;
+            /* background: gray; */
+            border-radius: 10px;
+            background: fixed;
+        }
+
+        .form-input {
+            background: white;
+            border: 1px solid gray;
+            padding: 12px;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-button {
+            background: rgb(94, 94, 94);
+            border: 1px solid gray;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-transform: uppercase;
+            border-radius: 10px;
+        }
+
+        .form-button:hover {
+            background: black;
+        }
+
+        .form-header {
+            color: white;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .form-footer {
+            color: wheat;
+            text-align: center;
+        }
+        .form-footer a{
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signin">
+        <form class="signin-form" action="">
+            <div class="form-header">
+                <h3>Sign In Form</h3>
+                <p>Sign in to access your project</p>
+            </div>
+            <!--Email Input-->
+            <div class="form-group">
+                <input type="email" class="form-input" placeholder="email@example.com">
+            </div>
+            <!--Password Input-->
+            <div class="form-group">
+                <input type="password" class="form-input" placeholder="password">
+            </div>
+            <!--Login Button-->
+            <div class="form-group">
+                <button class="form-button" type="submit">Sign in</button>
+            </div>
+            <div class="form-footer">
+                Don't have an account? <a href="sing_up.html">Sign up</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

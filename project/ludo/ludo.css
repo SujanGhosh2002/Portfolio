@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    width: 760px;
+    height: 760px;
+}
+table{
+    width: 100%;
+    height: 100%;
+    border: 2px solid gray;
+}
+th{
+    border: 2px solid gray;
+    width: 6.66%;
+    height: 6.66%;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}

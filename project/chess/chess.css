@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    width: 100vh;
+    height: 100%;
+}
+body{
+    height: 100vh;
+}
+table{
+    width: 100%;
+    height: 100%;
+    border: 2px solid gray;
+}
+th{
+    border: 2px solid gray;
+    width: 10%;
+    height: 10%;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}

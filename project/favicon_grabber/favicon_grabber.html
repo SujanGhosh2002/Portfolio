@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favicon Grabber</title>
+    <link rel="stylesheet" href="favicon_grabber.css">
+</head>
+
+<body>
+    <div class="favicon-grabber">
+        <script type="text/javascript" src="favicon_grabber.js"></script>
+        <div class="favicon">
+            <div class="favicon-header">
+                <h2>Favicon Grabber</h2>
+            </div>
+            <center><img src="" id="favicon-img"></center>
+            <div class="favicon-group">
+                <select id="favicon-size" class="favicon-input">
+                    <option value="default">Default Size</option>
+                    <option value="16">16x16</option>
+                    <option value="32">32x32</option>
+                    <option value="48">48x48</option>
+                    <option value="64">64x64</option>
+                    <option value="128">128x128</option>
+                </select>
+            </div>
+            <div class="favicon-group">
+                <input type="text" class="favicon-input" placeholder="Enter url" id="favicon-url"></input>
+            </div>
+            <div class="favicon-group">
+                <input type="submit" class="favicon-button" value="Grabber" onclick="favicon_check_url()">
+            </div>
+            <div class="favicon-footer">
+                <p>Developed By Sujan Ghosh</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

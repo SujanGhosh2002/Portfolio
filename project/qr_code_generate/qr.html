@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="shortcut icon" href="https://i.ibb.co/KFDQxfH/image.png">
+    <link rel="stylesheet" href="qr.css">
+</head>
+<body>
+    <div class="qr">
+        <script type="text/javascript" src="qr.js"></script>
+        <div class="qr-code">
+            <div class="qr-header">
+                <h2>Qr Code Generator</h2>
+            </div>
+            <center><img src="" id="img"></center>
+            <div class="qr-group">
+                <select id="size" class="qr-input">
+                    <option value="100">100x100</option>
+                    <option value="150">150x150</option>
+                    <option value="200">200x200</option>
+                    <option value="250" selected>250x250</option>
+                    <option value="300">300x300</option>
+                </select>
+            </div>
+            <div class="qr-group">
+                <input type="text" class="qr-input" placeholder="Enter your text" id="qrtext"></input>
+            </div>
+            <div class="qr-group">
+                <input type="submit" class="qr-button" value="Generate" onclick="genQR()">
+            </div>
+            <div class="qr-footer">
+                <p>Developed By Sujan Ghosh</p> 
+            </div>      
+        </div>
+    </div>
+</body>
+</html>

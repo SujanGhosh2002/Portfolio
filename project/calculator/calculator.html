@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div id="main">
+        <form name="sujan">
+            <center>Calculator</center>
+            <input class="result" type="text" name="ghosh" placeholder="0"> 
+            <input class="button" type="button" value="8" onclick="sujan.ghosh.value+=8">
+            <input class="button" type="button" value="9" onclick="sujan.ghosh.value+=9">
+            <input class="button" type="button" value="7" onclick="sujan.ghosh.value+=7">
+            <input class="button" type="button" value="/" onclick="div()">
+            <input class="button" type="button" value="4" onclick="sujan.ghosh.value+=4">
+            <input class="button" type="button" value="5" onclick="sujan.ghosh.value+=5">
+            <input class="button" type="button" value="6" onclick="sujan.ghosh.value+=6">
+            <input class="button" type="button" value="x" onclick="mul()">
+            <input class="button" type="button" value="1" onclick="sujan.ghosh.value+=1">
+            <input class="button" type="button" value="2" onclick="sujan.ghosh.value+=2">
+            <input class="button" type="button" value="3" onclick="sujan.ghosh.value+=3">
+            <input class="button" type="button" value="-" onclick="sub()">
+            <input class="button" type="button" value="(" onclick="sujan.ghosh.value+='('">
+            <input class="button" type="button" value="0" onclick="sujan.ghosh.value+=0">
+            <input class="button" type="button" value=")" onclick="sujan.ghosh.value+=')'">
+            <input class="button" type="button" value="+" onclick="add()">
+            <input class="button" type="button" value="Cle" onclick="sujan.ghosh.value=''">
+            <input class="button" type="button" value="Del" onclick="cut()">
+            <input class="button" type="button" value="." onclick="sujan.ghosh.value+='.'">
+            <input class="button" type="button" value="=" onclick="sujan.ghosh.value=eval(sujan.ghosh.value)">
+            <center>Developed By Sujan Ghosh</center>
+        </form>
+    </div>
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+
+</html>
