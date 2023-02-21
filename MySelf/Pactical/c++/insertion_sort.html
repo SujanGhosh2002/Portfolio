@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a program to Insertion sort given elements.</title>
+</head>
+
+<body>
+    <section>
+        <h3><u><b>Program:</b></u></h3>
+        <p>Write a program to Insertion sort given elements.</p>
+    </section>
+    <section>
+        <h3><u><b>Algorithm:</b></u></h3>
+    </section>
+    <section>
+        <h3><u><b>Flowchat:</b></u></h3>
+    </section>
+    <section>
+        <h3><u><b>Pseudo Code:</b></u></h3>
+    </section>
+    <section>
+        <h3><u><b>Source Code:</b></u></h3>
+        <pre>
+        #include&lt;iostream&gt;
+        using namespace std;
+        void insertion_sort(int array[],int size)
+        {
+            int i,j,x;
+            for(i=1;i&lt;size;i++)
+            {
+                x=array[i];
+                for(j=i-1;(j&gt;=0 && array[j]&gt;x);j--)
+                {
+                    array[j+1]=array[j];
+                }
+                array[j+1]=x;
+            }
+        }
+        int main()
+        {
+            int size,array[30],i;
+            cout&lt;&lt;"Enter number of element: ";
+            cin&gt;&gt;size;
+            cout&lt;&lt;"Enter elements: ";
+            for(i=0;i&lt;size;i++)
+            {
+                cin&gt;&gt;array[i];
+            }
+            cout&lt;&lt;"Before Sorting elements: ";
+            for(i=0;i&lt;size;i++)
+            {
+                cout&lt;&lt;array[i]&lt;&lt;"\t";
+            }
+            insertion_sort(array,size);
+            cout&lt;&lt;"\nAfter Sorting elements: ";
+            for(i=0;i&lt;size;i++)
+            {
+                cout&lt;&lt;array[i]&lt;&lt;"\t";
+            }
+            return 0;
+        }
+        
+        
+   </pre>
+    </section>
+    <section>
+        <h3><u><b>Output:</b></u></h3>
+        <pre>
+        Enter number of element: 10
+        Enter elements: -2 3 4 -1 0 5 -12 6 1 3
+        Before Sorting elements: -2     3       4       -1      0       5       -12     6       1       3
+        After Sorting elements: -12     -2      -1      0       1       3       3       4       5       6
+   </pre>
+    </section>
+</body>
+
+</html>
